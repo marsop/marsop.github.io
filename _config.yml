@@ -45,6 +45,10 @@ social_media:
   # youtube: your_username
 
 topics:
+  - name: Machine Learning
+    web_url: https://www.tensorflow.org/
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
+  
   - name: C#
     web_url: https://docs.microsoft.com/en-us/dotnet/csharp/
     image_url: http://svanvueren.info/wp-content/uploads/2019/01/cpp.png
@@ -54,7 +58,8 @@ topics:
     image_url: https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/180px-Fsharp%2C_Logomark%2C_October_2014.svg.png
 
   - name: Python
-    web_url: https://www.python.org/
+    web_url: https://gto76.github.io/python-cheatsheet/
     image_url: https://yt3.ggpht.com/a-/AAuE7mBb9nkPTRX6_g9r_79DVRiNDS0AAkzJwna_kw=s288-mo-c-c0xffffffff-rj-k-no
+    
 
 theme: jekyll-theme-architect
