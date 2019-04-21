@@ -56,3 +56,5 @@ topics:
   - name: Python
     web_url: https://www.python.org/
     image_url: https://www.python.org/static/img/python-logo.png
+
+theme: jekyll-theme-architect
