@@ -25,7 +25,8 @@ projects:
   exclude:
     forks: false
     projects:
-    # - repo-name
+    - marsop.github.io
+    - machikoro
 
 social_media:
   # behance: your_username
