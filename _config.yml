@@ -8,6 +8,10 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+user:
+  email: me@albertogregorio.com
+  
+
 defaults:
   -
     scope:
