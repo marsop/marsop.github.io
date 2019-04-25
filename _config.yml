@@ -50,11 +50,11 @@ topics:
     web_url: https://www.tensorflow.org/
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
   
-  - name: C#
+  - name: Reactive Programming
     web_url: https://docs.microsoft.com/en-us/dotnet/csharp/
     image_url: http://svanvueren.info/wp-content/uploads/2019/01/cpp.png
 
-  - name: F#
+  - name: Functional Programming
     web_url: https://docs.microsoft.com/en-us/dotnet/fsharp/
     image_url: https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/180px-Fsharp%2C_Logomark%2C_October_2014.svg.png
 
