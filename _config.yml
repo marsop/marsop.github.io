@@ -52,7 +52,7 @@ topics:
   
   - name: Reactive Programming
     web_url: https://docs.microsoft.com/en-us/dotnet/csharp/
-    image_url: http://svanvueren.info/wp-content/uploads/2019/01/cpp.png
+    image_url: https://avatars2.githubusercontent.com/u/984368?s=280&v=4
 
   - name: Functional Programming
     web_url: https://docs.microsoft.com/en-us/dotnet/fsharp/
