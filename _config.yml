@@ -51,7 +51,7 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
   
   - name: Reactive Programming
-    web_url: https://docs.microsoft.com/en-us/dotnet/csharp/
+    web_url: http://reactivex.io/
     image_url: https://avatars2.githubusercontent.com/u/984368?s=280&v=4
 
   - name: Functional Programming
