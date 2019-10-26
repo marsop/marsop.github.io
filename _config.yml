@@ -23,7 +23,8 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    forks: false
+    forks: true
+    archived: false
     projects:
     - marsop.github.io
     - machikoro
@@ -36,6 +37,7 @@ social_media:
   # instagram: your_username
   # keybase: your_username
   linkedin: alberto-gregorio-0471122a
+  # mastodon: your_username
   # medium: your_username
   # stackoverflow: 1475643
   # telegram: your_username
