@@ -1,6 +1,6 @@
 ---
 title: "My PlantUML Diagram-Based Workflow for .NET"
-published: false
+published: true
 ---
 
 We are entering 2020 and it is yet not quite easy to (automatically) generate diagrams based on your code. 
