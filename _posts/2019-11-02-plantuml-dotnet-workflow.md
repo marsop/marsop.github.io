@@ -1,15 +1,16 @@
 ---
-title: "My PlantUML Workflow in .NET"
+title: "My PlantUML Diagram-Based Workflow for .NET"
 published: false
 ---
 
 We are entering 2020 and it is yet not quite easy to (automatically) generate diagrams based on your code. 
-Sure, there are a myriad of options, But when it comes to integration, pricing or simply ease of use, they all more or less fall apart. 
-Maybe I am getting ahead of myself here, let´s define first what I mean by UML-Workflow. 
+Sure, there are a myriad of options, but when it comes to integration, pricing or ease of use, they all start to show their shortcomings. 
+Maybe I am getting ahead of myself here, let´s start by defining first what I mean by Diagram-Based Workflow (DBW). 
 
-When starting a new project, the requirements are layed out and somehow, somebody will pave the way for the developer team. 
-The preferred way to do this for the teams where I have worked so far is to prepare some kind of documentation. 
-Most often than not, this would be some kind of UML documentation.
+When starting a new project, the requirements are layed out and somehow, somebody will pave the way for the developer team to start producing functionality. 
+The preferred way to do this for the teams where I have worked with so far is to prepare some kind of documentation.
+Most often than not, this documentation would be some kind of washed down UML documentation.
+It is not really that UML documentation beats any other kind, but it allows to represent the key elements of the architecture, communication between components and event key actors in a visually appealing way.
 
 Now this documentation will be obsolete almost from the get-go, since as anybody that has worked in a real-world project knows, requirements change.
 In order to keep the diagrams up-to-date, you can force your developers to update the diagrams everytime a change is approved.
