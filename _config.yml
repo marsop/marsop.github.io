@@ -52,7 +52,7 @@ google_analytics: UA-150973090-1
 topics:
   - name: Ephemeral
     web_url: https://albertogregorio.com/ephemeral
-    image_url: https://albertogregorio.com/ephemeral/img/EphemeralLogoCropped.png
+    image_url: https://albertogregorio.com/ephemeral/img/EphemeralIcon.png
 
   - name: Machine Learning
     web_url: https://www.tensorflow.org/
