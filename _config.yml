@@ -50,6 +50,10 @@ social_media:
 google_analytics: UA-150973090-1
 
 topics:
+  - name: Ephemeral
+    web_url: https://albertogregorio.com/ephemeral
+    image_url: https://albertogregorio.com/ephemeral/img/EphemeralLogoCropped.png
+
   - name: Machine Learning
     web_url: https://www.tensorflow.org/
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
