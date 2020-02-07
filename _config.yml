@@ -46,8 +46,9 @@ social_media:
   # vk: your_username
   website: http://albertogregorio.com
   # youtube: your_username
-  google_analytics: UA-150973090-1
 
+site:
+  google_analytics: UA-150973090-1
 
 topics:
   - name: Machine Learning
