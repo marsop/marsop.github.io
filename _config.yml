@@ -47,8 +47,7 @@ social_media:
   website: http://albertogregorio.com
   # youtube: your_username
 
-site:
-  google_analytics: UA-150973090-1
+google_analytics: UA-150973090-1
 
 topics:
   - name: Machine Learning
