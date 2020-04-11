@@ -17,11 +17,11 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Platforms
 
-![Platforms](/assets/2020-04-11-platforms.png)
+![Platforms](assets/images/2020-04-11-platforms.png)
 
 ## Tools
 
-![Tools](/assets/2020-04-11-tools.png)
+![Tools](assets/images/2020-04-11-tools.png)
 
 ## Techniques
 
