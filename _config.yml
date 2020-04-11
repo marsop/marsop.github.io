@@ -21,7 +21,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     forks: true
     archived: false
@@ -39,7 +39,7 @@ social_media:
   linkedin: alberto-gregorio-0471122a
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: 1475643
+  stackoverflow: 1475643
   # telegram: your_username
   twitter: marsop_
   # unsplash: your_username

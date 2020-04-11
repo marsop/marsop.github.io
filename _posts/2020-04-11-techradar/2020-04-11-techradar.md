@@ -11,6 +11,7 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Platforms
 
+![](platforms.png)
 <img src="platforms.png" alt="Platforms" width="500"/>
 
 ## Tools
