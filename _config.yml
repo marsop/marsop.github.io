@@ -5,6 +5,7 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
+  - jekyll-responsive-image
   
 permalink: /:year/:month/:day/:title/
 
@@ -48,6 +49,9 @@ social_media:
   # youtube: your_username
 
 google_analytics: UA-150973090-1
+
+responsive_image:
+  template: _includes/responsive-image.html
 
 topics:
   - name: Ephemeral
