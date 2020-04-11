@@ -1,5 +1,5 @@
 ---
-title: ":+1: Tech Radar (2020-04-11)"
+title: "Tech Radar (2020-04-11)"
 icon: ":dart:"
 published: true
 tags: tech_radar, technology, tool, technique, language, framework
