@@ -1,5 +1,5 @@
 ---
-title: "Tech Radar (2020-04-11)"
+title: ":dart: Tech Radar (2020-04-11)"
 published: true
 ---
 
@@ -11,7 +11,7 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Platforms
 
-![](platforms.png)
+![platforms2](platforms.png)
 <img src="platforms.png" alt="Platforms" width="500"/>
 
 ## Tools
