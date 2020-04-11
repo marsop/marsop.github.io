@@ -14,7 +14,7 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Platforms
 
-<img src="/assets/2020-04-11-platforms.png" alt="Platforms" width="750"/>
+<img src="/assets/2020-04-11-platforms.png" alt="Platforms"/>
 
 ## Tools
 
