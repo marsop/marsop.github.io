@@ -11,17 +11,17 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Platforms
 
-![platforms2](platforms.png)
-<img src="platforms.png" alt="Platforms" width="500"/>
+![platforms2](assets/2020-04-11-platforms.png)
+<img src="assets/2020-04-11-platforms.png" alt="Platforms" width="500"/>
 
 ## Tools
 
-<img src="tools.png" alt="Tools" width="500"/>
+<img src="assets/2020-04-11-tools.png" alt="Tools" width="500"/>
 
 ## Techniques
 
-<img src="techniques.png" alt="Techniques" width="500"/>
+<img src="assets/2020-04-11-techniques.png" alt="Techniques" width="500"/>
 
 ## Languages and Frameworks
 
-<img src="languages.png" alt="Languages and Frameworks" width="500"/>
+<img src="assets/2020-04-11-languages.png" alt="Languages and Frameworks" width="500"/>
