@@ -1,6 +1,8 @@
 ---
 title: ":dart: Tech Radar (2020-04-11)"
 published: true
+tags: tech_radar, technology, tool, technique, language, framework
+category: meta
 ---
 
 After some time thinking about tools and techniques on my own, I have decided to take the first step and create my own personal tech radar. I am still not quite convinced with using the server from Thoughtworks for this, but for the time being it will have to do.
@@ -26,4 +28,4 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Languages and Frameworks
 
-<img src="assets/2020-04-11-languages.png" alt="Languages and Frameworks" width="500"/>
+<img src="/assets/2020-04-11-languages.png" alt="Languages and Frameworks" width="500"/>
