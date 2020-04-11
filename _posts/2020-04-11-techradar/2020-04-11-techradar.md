@@ -21,8 +21,7 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Tools
 
-<img src="/assets/2020-04-11-tools.png" alt="Tools"/>
-![](/assets/2020-04-11-tools.png)
+<img src="/assets/2020-04-11-tools.png" alt="Tools" width="750"/>
 
 ## Techniques
 
