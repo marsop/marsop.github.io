@@ -1,6 +1,7 @@
 ---
 title: "Tech Radar v1.0"
-image: "/assets/2020-04-11-platforms.png"
+image:
+  feature: /assets/2020-04-11-platforms.png
 icon: ":dart:"
 excerpt: "this is my excerpt"
 published: true
