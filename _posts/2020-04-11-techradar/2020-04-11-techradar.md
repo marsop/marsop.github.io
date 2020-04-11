@@ -1,5 +1,6 @@
 ---
 title: "Tech Radar v1.0"
+image: "/assets/2020-04-11-platforms.png"
 icon: ":dart:"
 excerpt: "this is my excerpt"
 published: true
@@ -15,7 +16,7 @@ As always, the opinions are my own, but suggestions are appreciated.
 
 ## Platforms
 
-<img src="/assets/2020-04-11-platforms.png" alt="Platforms" style="{max-width: 750;}"/>
+<img src="/assets/2020-04-11-platforms.png" alt="Platforms" width="750"/>
 
 ## Tools
 
