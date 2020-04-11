@@ -12,7 +12,9 @@ As always, the opinions are my own, but suggestions are appreciated.
 ## Platforms
 
 ![platforms2](assets/2020-04-11-platforms.png)
+![platforms3](2020-04-11-platforms.png)
 <img src="assets/2020-04-11-platforms.png" alt="Platforms" width="500"/>
+<img src="2020-04-11-platforms.png" alt="Platforms" width="500"/>
 
 ## Tools
 
