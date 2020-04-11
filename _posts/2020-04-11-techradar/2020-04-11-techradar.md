@@ -1,6 +1,7 @@
 ---
 title: "Tech Radar v1.0"
 icon: ":dart:"
+excerpt: "this is my excerpt"
 published: true
 tags: tech_radar, technology, tool, technique, language, framework
 category: meta
