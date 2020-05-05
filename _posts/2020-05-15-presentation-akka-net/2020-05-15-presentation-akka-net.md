@@ -4,7 +4,9 @@ image:
   feature: /assets/2020-04-11-platforms.png
 icon: ":family:"
 excerpt: "Introduction to Akka.NET"
-published: false
+published: true
 tags: akka, actor_systems
 category: meta
 ---
+
+[Presentation](https://albertogregorio.com/presentation-actor-systems-with-akka-net/#/).

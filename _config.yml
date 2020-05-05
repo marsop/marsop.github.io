@@ -73,6 +73,10 @@ topics:
   - name: Python
     web_url: https://gto76.github.io/python-cheatsheet/
     image_url: https://yt3.ggpht.com/a-/AAuE7mBb9nkPTRX6_g9r_79DVRiNDS0AAkzJwna_kw=s288-mo-c-c0xffffffff-rj-k-no
+
+  - name: Akka.NET
+    web_url: https://getakka.net/
+    image_url: https://getakka.net/images/mainlogo.png
     
 repository: marsop/marsop.github.io
 
