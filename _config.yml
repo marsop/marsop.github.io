@@ -68,7 +68,7 @@ topics:
 
   - name: Functional Programming
     web_url: https://docs.microsoft.com/en-us/dotnet/fsharp/
-    image_url: https://en.wikipedia.org/wiki/F_Sharp_(programming_language)#/media/File:Fsharp_logo.png
+    image_url: https://upload.wikimedia.org/wikipedia/commons/5/57/Fsharp_logo.png
 
   - name: Python
     web_url: https://gto76.github.io/python-cheatsheet/
