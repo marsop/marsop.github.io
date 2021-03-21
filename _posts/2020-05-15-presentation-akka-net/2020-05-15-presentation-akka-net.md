@@ -2,7 +2,7 @@
 title: "Intro to Akka.NET"
 image:
   feature: /assets/2020-04-11-platforms.png
-icon: ":family:"
+icon: "👪"
 excerpt: "Introduction to Akka.NET"
 published: true
 tags: akka, actor_systems

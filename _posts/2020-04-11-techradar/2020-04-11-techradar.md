@@ -2,8 +2,8 @@
 title: "Tech Radar v1.0"
 image:
   feature: /assets/2020-04-11-platforms.png
-icon: ":dart:"
-excerpt: "this is my excerpt"
+icon: "🎯"
+excerpt: "Visualization of my first tech radar"
 published: true
 tags: tech_radar, technology, tool, technique, language, framework
 category: meta
