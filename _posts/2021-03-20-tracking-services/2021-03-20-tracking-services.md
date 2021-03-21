@@ -3,13 +3,15 @@ title: "Tracking Services"
 image:
   feature: /assets/2021-03-20-tracking-services.png
 icon: "📡"
-excerpt: "this is my excerpt"
+excerpt: "How do I track my media consumption?"
 published: true
 tags: tracking, automation
 category: meta
 ---
 
 I like to keep track of things. Call it what you will, but for me, being able to analyse my own habits helps me keep an illusion of control over them. There are several categories that I am currently tracking. For each of them over the years I have tried different options and finally settled with (better or worse) services to keep my data. Nowadays I try to choose services that would allow me to take my data away should I find a better alternative.
+
+![Tracking Services](../../../assets/2021-03-20-tracking-services-image.jpg)
 
 I know this puts off a lot of people because of privacy concerns. Honestly, this is not something that worries me too much at the moment, but is definitely something to look out for. Keep the finger on the pulse about what other options could be out there.
 
