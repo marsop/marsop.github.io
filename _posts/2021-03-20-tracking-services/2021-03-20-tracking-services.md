@@ -20,7 +20,7 @@ Without further ado, here is my current list of trackers:
 - [Goodreads](http://goodreads.com/)
 - Status: 👍 Healthy
 
-This one comes from a far away time. Much before Amazon bought the platform, I tried several services before settling for Goodreads like Librofilia. They just did not offer all I needed at the time. Nowadays, Goodreads is the clear juggernaut in this space (book-habit-tracking). There are several things that I do not like, but the interface is clear enough, it has a huge database and phone apps to boot. One thing is the seamless integration in Kindle where it synchronizes notes and highlights (only for books bought on Amazon). This only with USA account I.
+This one comes from a far away time. Much before Amazon bought the platform, I tried several services before settling for Goodreads like [Librofilia](https://www.librofilia.com/). More recently I have been looking into [readng](https://beta.readng.co/). They just did not offer all I needed at the time. Nowadays, Goodreads is the clear juggernaut in this space (book-habit-tracking). There are several things that I do not like, but the interface is clear enough, it has a huge database and phone apps to boot. One thing is the seamless integration in Kindle where it synchronizes notes and highlights (only for books bought on Amazon). Sadly, the kindle integration only works with a kindle configured with the US-Marketplace.
 
 ## Music
 
@@ -60,8 +60,8 @@ I am happy with trakt.tv, it integrates good with my work flow and the statistic
 
 This one is currently undergoing renovation. The idea here is automatically track in what i spend the time while in the computer (s). Each of the following has at least one problem:
 
-- Waka Time: it integrates with IDEA Intelli], Visual studio and Visual studio Code. That's it, it is mostly thought for coding, which is only a small part of what I want to track.
-- Procrastitracker : available through Chocolatey, it seems quite good, but keeps only a local DB (which means I cannot use it between machines or outside Windows..)
+- Waka Time: it integrates with IDEA IntelliJ, Visual studio and Visual studio Code. That's it, it is mostly thought for coding, which is only a small part of what I want to track.
+- ProcrastiTracker : available through Chocolatey, it seems quite good, but keeps only a local DB (which means I cannot use it between machines or outside Windows..)
 - Toggl: Mostly manual tracking, not quite what you want...
 
 ## MOOC (online courses)
