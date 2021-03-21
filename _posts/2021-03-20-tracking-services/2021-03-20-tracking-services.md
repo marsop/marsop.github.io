@@ -1,7 +1,7 @@
 ---
 title: "Tracking Services"
 image:
-  feature: /assets/2021-03-20-tracking-services.png
+  feature: /assets/2021-03-20-tracking-services-image.jpg
 icon: "📡"
 excerpt: "How do I track my media consumption?"
 published: true
@@ -11,11 +11,7 @@ category: meta
 
 I like to keep track of things. Call it what you will, but for me, being able to analyze my own habits helps me keep an illusion of control over them. There are several categories that I am currently tracking. For each of them over the years I have tried different options and finally settled with (better or worse) services to keep my data. Nowadays I try to choose services that would allow me to take my data away should I find a better alternative.
 
-<div style="text-align:center">
-<img src="/assets/2021-03-20-tracking-services-image.jpg" alt="Tracking Services" width="750" />
-</div>
-
-I know this puts off a lot of people because of privacy concerns. Honestly, this is not something that worries me too much at the moment, but is definitely something to look out for. Keep the finger on the pulse about what other options could be out there.
+I know this puts off a lot of people because of privacy concerns. Honestly, this is not something that worries me too much at the moment, but is definitely something to look out for. Keep the finger on the pulse about what other options could be out there. I will try to update this if and when I find better replacements. Feel free to let me know your favorites (twitter: @marsop_)
 
 Without further ado, here is my current list of trackers:
 
@@ -24,35 +20,37 @@ Without further ado, here is my current list of trackers:
 - [Goodreads](http://goodreads.com/)
 - Status: 👍 Healthy
 
-This one comes from a far away time. Much before Amazon bought the platform, I tried several services before settling for Goodreads like [Librofilia](https://www.librofilia.com/). More recently I have been looking into [readng](https://beta.readng.co/). They just did not offer all I needed at the time. Nowadays, Goodreads is the clear juggernaut in this space (book-habit-tracking). There are several things that I do not like, but the interface is clear enough, it has a huge database and phone apps to boot. One thing is the seamless integration in Kindle where it synchronizes notes and highlights (only for books bought on Amazon). Sadly, the kindle integration only works with a kindle configured with the US-Marketplace.
+This one comes from a far away time, where the services on offer left much to be desired. Much before Amazon bought the platform, I tried several services before settling for Goodreads like [Librofilia](https://www.librofilia.com/). They just did not offer all I needed at the time. More recently I have been looking into [readng](https://beta.readng.co/), which due to unclear pricing is out for the time being.
+
+Nowadays, Goodreads is the clear juggernaut in this space (book-habit-tracking). There are several things that I do not like with this site, but the interface is clear enough, it has a huge database and companion phone apps to boot. One positive is the seamless integration in Kindle where it synchronizes notes and highlights (only for books bought on Amazon). Sadly, the kindle integration only works with a kindle configured with the US-Marketplace.
 
 ## Music 🎵
 
 - [Last.fm](https://www.last.fm/)
 - Status: 👍 Healthy
 
-This one also comes for a long time ago, back in the days of Winamp if I recall it properly. My listening habits are also. Mostly receiving data from Spotify nowadays, which anyway works better as my source for recommendations.
+This one also comes for a long time ago, back in the days of Winamp if I recall it properly. Even though Spotify offers a reasonable discovery mechanism, the stats provided are not yet up to par. In any case, my Last.fm is mostly receiving data from Spotify, but the possibility of linking this without having to rely on Spotify grants it a place in the tracking list for the moment.
 
 ## Movies 📽
 
 - [FilmAffinity](https://www.filmaffinity.com/)
 - Status: 👎 Searching for replacement
 
-This web is not good. The fact that in the latest years they are specializing in acting like a billboard for the subscription services of the likes of Netflix and Amazon Prime does not help. The recommendations are still somehow acceptable. The database is missing some less know productions.
+This website is not good. In fact, it is so bad that I have used it in the past to point out clear usability issues. The fact that lately they are specializing in acting like a billboard for the subscription services of the likes of Netflix and Amazon Prime does not help. The recommendations coming out of FilmAffinity are still somehow acceptable and serve the discovery purpose. The movie database is missing some less know productions, but it is kept up-to-date with Hollywood and Online providers both.
 
 ## Videogames 🕹
 
 - [How long to Beat](https://howlongtobeat.com/)
 - Status: 👎 Searching for replacement
 
-This one has a horrible interface (seriously guys, this is so 1990s) and the mobile app does not really allow you to track anything, just check the database. One of the big missing points is a good recommendation engine. Deciding what to play next is never an easy task, and HLTB does not really help in this regard. On the other hand, the ability to track time is very interesting when compared to the community.
+This one (also) has a horrible interface (seriously guys, this is so 1990s) and the mobile app does not really allow you to track anything, just check the database. One of the big missing features in HLTB is a good recommendation engine. Deciding what to play next is never an easy task, and HLTB does not really help in this regard. On the other hand, the ability to track time is very interesting when compared to the community.
 
 ## TV Shows 📺
 
 - [Trakt.tv.](https://trakt.tv/)
 - Status: 👌 Perfect
 
-I am happy with trakt.tv, it integrates good with my work flow and the statistics are good enough for me.
+I am happy with trakt.tv, it integrates seamlessly with my workflow and the statistics are good enough for my purposes. Trakt.tv in fact also tracks movies, and it is a contender in that space as well. Unfortunately they do not yet include as many movies as I would like.
 
 ## Screen Time 💻
 
@@ -62,11 +60,11 @@ I am happy with trakt.tv, it integrates good with my work flow and the statistic
   - [Toggl](https://toggl.com/)
 - Status: 🧪 Currently testing
 
-This one is currently undergoing renovation. The idea here is automatically track in what i spend the time while in the computer (s). Each of the following has at least one problem:
+This one is currently undergoing renovation. The idea in this category is automatically track what I spend my time with while in the computer(s). Each of the following has at least one problem:
 
-- Waka Time: it integrates with IDEA IntelliJ, Visual studio and Visual studio Code. That's it, it is mostly thought for coding, which is only a small part of what I want to track.
-- ProcrastiTracker : available through Chocolatey, it seems quite good, but keeps only a local DB (which means I cannot use it between machines or outside Windows..)
-- Toggl: Mostly manual tracking, not quite what you want...
+- WakaTime: This plugin-based WebApp integrates with most IDEs like IDEA IntelliJ, Visual studio and Visual studio Code and also some browsers like Chrome (not Firefox though). That's it, no tracking of anything else with WakaTime. It is mostly thought for coding, which is only a small part of what I would ideally like to track.
+- ProcrastiTracker : available through Chocolatey in Windows, this small desktop app tracks what is open in your desktop at all times. Basically a 1984-wet dream. It keeps only a local DB (which means I cannot use it between machines or outside Windows without workarounds..)
+- Toggl: Mostly manual tracking, not quite what you want if you are multitasking...
 
 ## MOOC (online courses) 🎓
 
