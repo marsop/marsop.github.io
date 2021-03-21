@@ -9,9 +9,11 @@ tags: tracking, automation
 category: meta
 ---
 
-I like to keep track of things. Call it what you will, but for me, being able to analyze my own habits helps me keep an illusion of control over them. There are several categories that I am currently tracking. For each of them over the years I have tried different options and finally settled with (better or worse) services to keep my data. Nowadays I try to choose services that would allow me to take my data away should I find a better alternative.
+I like to keep track of things. Call it what you will, but for me, being able to analyze my own habits helps me keep an illusion of control over them. There are several "categories" that are currently being tracked. For each of them, I have tested different options over the years, and finally settled for (better or worse) services to keep my data. Nowadays, I try to choose services that would allow me to take my data away should I find a better alternative. A comprehensive list of features would be too long and it would require its own separate post. For the moment, let´s just keep it simple and name a few: extensive database, easy to use, inexpensive, easy to move out.
 
-I know this puts off a lot of people because of privacy concerns. Honestly, this is not something that worries me too much at the moment, but is definitely something to look out for. Keep the finger on the pulse about what other options could be out there. I will try to update this if and when I find better replacements. Feel free to let me know your favorites (twitter: @marsop_)
+Just a disclaimer before I get to it: Where the data is stored is *not* one of the main factors to consider for most of the categories (except maybe for time tracking). I know this puts off a lot of people because of privacy concerns. Honestly, this is not something that worries me too much at the moment, but is definitely something to look out for if you want to keep your life and everything in it to yourself.
+
+I try keeping the finger on the pulse on what other options could be out there. I will try to update this if and when I find better replacements. Feel free to let me know your favorites on Twitter.
 
 Without further ado, here is my current list of trackers:
 
