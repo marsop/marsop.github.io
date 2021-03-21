@@ -15,42 +15,42 @@ I know this puts off a lot of people because of privacy concerns. Honestly, this
 
 Without further ado, here is my current list of trackers:
 
-## Books
+## Books 📚
 
 - [Goodreads](http://goodreads.com/)
 - Status: 👍 Healthy
 
 This one comes from a far away time. Much before Amazon bought the platform, I tried several services before settling for Goodreads like [Librofilia](https://www.librofilia.com/). More recently I have been looking into [readng](https://beta.readng.co/). They just did not offer all I needed at the time. Nowadays, Goodreads is the clear juggernaut in this space (book-habit-tracking). There are several things that I do not like, but the interface is clear enough, it has a huge database and phone apps to boot. One thing is the seamless integration in Kindle where it synchronizes notes and highlights (only for books bought on Amazon). Sadly, the kindle integration only works with a kindle configured with the US-Marketplace.
 
-## Music
+## Music 🎵
 
 - [Last.fm](https://www.last.fm/)
 - Status: 👍 Healthy
 
 This one also comes for a long time ago, back in the days of Winamp if I recall it properly. My listening habits are also. Mostly receiving data from Spotify nowadays, which anyway works better as my source for recommendations.
 
-## Movies
+## Movies 📽
 
 - [FilmAffinity](https://www.filmaffinity.com/)
 - Status: 👎 Searching for replacement
 
 This web is not good. The fact that in the latest years they are specialising in acting like a billboard for the subscription services of the likes of Netflix and Amazon Prime does not help. The recommendations are still somehow acceptable. The database is missing some less know productions.
 
-## Videogames
+## Videogames 🕹
 
 - [How long to Beat](https://howlongtobeat.com/)
 - Status: 👎 Searching for replacement
 
 This one has a horrible interface (seriously guys, this is so 1990s) and the mobile app does not really allow you to track anything, just check the database. One of the big missing points is a good recommendation engine. Deciding what to play next is never an easy task, and HLTB does not really help in this regard. On the other hand, the ability to track time is very interesting when compared to the community.
 
-## TV Shows
+## TV Shows 📺
 
 - [Trakt.tv.](https://trakt.tv/)
 - Status: 👌 Perfect
 
 I am happy with trakt.tv, it integrates good with my work flow and the statistics are good enough for me.
 
-## Screen Time
+## Screen Time 💻
 
 - Contestants
   - [WakaTime](https://wakatime.com/)
@@ -64,7 +64,7 @@ This one is currently undergoing renovation. The idea here is automatically trac
 - ProcrastiTracker : available through Chocolatey, it seems quite good, but keeps only a local DB (which means I cannot use it between machines or outside Windows..)
 - Toggl: Mostly manual tracking, not quite what you want...
 
-## MOOC (online courses)
+## MOOC (online courses) 🎓
 
 - Nothing here yet.
 - Status: 🔍 searching
