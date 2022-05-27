@@ -1,0 +1,52 @@
+#!markdown
+
+# Records
+
+Love them or hate them, but records are here to stay, and you should learn to use them.
+
+#!csharp
+
+public record Person(string FirstName, string LastName, int Age);
+
+#!markdown
+
+## Validation
+
+What about validating that `Person.Age`? How would you go about that?
+
+#!csharp
+
+// this should not really be allowed
+Person alberto = new("Alberto", "Gregorio", -25);
+
+#!markdown
+
+Consider the following validation style:
+
+#!csharp
+
+public record ValidatedPerson(string FirstName, string LastName, int Age) {
+
+    private bool _validated = Check.ValidateFirstName(FirstName)
+        && Check.ValidateLastName(LastName)
+        && Check.ValidateAge(Age);
+
+    internal static class Check {
+        static internal bool ValidateFirstName(string firstName) {
+            return string.IsNullOrEmpty(firstName) ? throw new ArgumentNullException(nameof(firstName)): true;
+        }
+
+        static internal bool ValidateLastName(string lastName) {
+            return string.IsNullOrEmpty(lastName) ? throw new ArgumentNullException(nameof(lastName)): true;
+        }
+
+        static internal bool ValidateAge(int age) {
+            return age < 0 ? throw new ArgumentOutOfRangeException(nameof(age)): true;
+        }
+    }
+}
+
+#!csharp
+
+// this is indeed not allowed
+var albert = new ValidatedPerson("Albert", "Einstein", -25);
