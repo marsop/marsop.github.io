@@ -9,7 +9,7 @@ tags: clean-code, programming
 category: meta
 ---
 
-Love them or hate them, but records are here to stay, and you should learn to use them.
+Love them or hate them, C# records are here to stay, and you should learn to use them. Let's delve a bit into my biggest problem with these guys. Starting with a simple example, let's define a `Person`:
 
 ```csharp
 public record Person(string FirstName, string LastName, int Age);
@@ -18,11 +18,11 @@ public record Person(string FirstName, string LastName, int Age);
 What about validating that `Person.Age`? How would you go about that?
 
 ```csharp
-// this should not really be allowed
+// this should not really be allowed, but nothing is getting validated!
 Person alberto = new("Alberto", "Gregorio", -25);
 ```
 
-One possibility would be getting rid of that positional constructor, but that defeats the purpose of the record for certain scenarios. 
+One possibility would be getting rid of that positional constructor, define a couple of `{ get; init; }` properties and validate in the explicit constructor, but that defeats the purpose of the record for certain scenarios.
 
 After trying different approaches, I settled for this approach:
 
