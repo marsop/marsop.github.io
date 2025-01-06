@@ -40,7 +40,7 @@ I am still using both for the time being, but I expect to drop FilmaAffinity at 
 
 ## Videogames 🕹
 
-- [GOG Galaxy 2.0]() (previously `How long to Beat`)
+- [GOG Galaxy 2.0](https://www.gog.com/galaxy) (previously `How long to Beat`)
 - Status: 👍 Healthy
 
 Previously I used `How Long To Beat` (or HLTB for short) to track and obtain a little bit of information about the different games. Nowadays, HLTB is decently integrated in XBOX Game Pass and its main statistic (Average Time To Beat) is visible in the interface without having to visit the painfully designed website. On the other hand, since there is still no good recommendation system for my taste, I use `Metacritic` to scratch that itch.
@@ -65,7 +65,7 @@ My employer uses a very questionable software to track time (whose name I would 
 
 ## MOOC (online courses) 🎓
 
-- [Pluralsight]()
+- [Pluralsight](https://www.pluralsight.com/)
 - Status: 👍 Healthy
 
 I do not think that Pluralsight offers any special content that you cannot get somewhere else, but it is easy to seach, convenient and extensive. I had not done due diligence in this category because this platform is provided by my employer and as such it is pretty much my go-to place for all course related activities. Once I am sure that the platform does not include anything that could be of interest I scour the web for alternatives, where I usually land in very obscure pages which offer incredible one-in-a-lifetime offer, twice a day.
