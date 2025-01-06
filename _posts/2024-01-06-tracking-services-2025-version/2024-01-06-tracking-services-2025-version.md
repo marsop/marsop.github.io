@@ -2,7 +2,7 @@
 title: "Tracking Services (2025 edition)"
 image:
   feature: /assets/2021-03-20-tracking-services-image.jpg
-icon: "📡"
+icon: "✌"
 excerpt: "How do I track my media consumption in 2025?"
 published: true
 tags: tracking, automation

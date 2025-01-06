@@ -2,7 +2,7 @@
 title: "C# Record Validation"
 image:
   feature: /assets/2022-05-27-csharp-records.jpg
-icon: "🪨"
+icon: "✔"
 excerpt: "Validate or not validate, that is the question"
 published: true
 tags: clean-code, programming
