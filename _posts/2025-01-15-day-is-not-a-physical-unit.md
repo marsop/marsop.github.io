@@ -4,7 +4,7 @@ image:
   feature: /assets/2025-01-15-day-is-not-a-physical-unit.png
 icon: "⌚"
 excerpt: "When is a Day less than a day?"
-published: true
+published: false
 tags: development
 category: meta
 ---
