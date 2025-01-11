@@ -1,7 +1,7 @@
 ---
 title: "Tracking Services (2025 edition)"
 image:
-  feature: /assets/2021-03-20-tracking-services-image.jpg
+  feature: /assets/2024-01-06-tracking-services-2025-version.png
 icon: "✌"
 excerpt: "How do I track my media consumption in 2025?"
 published: true
@@ -9,7 +9,7 @@ tags: tracking, automation
 category: meta
 ---
 
-Almost 4 years have passed since my last entry with respect to tracking services (which you can read [here](../../../../2021/03/20/tracking-services)) and I feel that somehow it is time to revise the topic once again and compare how things worked post-pandemic (there are indeed some changes, but mostly everything has keep working as it used to)
+Almost 4 years have passed since my last entry with respect to tracking services (which you can read [here]({% post_url 2021-03-20-tracking-services)) and I feel that somehow it is time to revise the topic once again and compare how things worked post-pandemic (there are indeed some changes, but mostly everything has keep working as it used to)
 
 Without further ado, here is my current list of trackers:
 
