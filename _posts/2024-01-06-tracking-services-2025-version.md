@@ -18,14 +18,14 @@ Without further ado, here is my current list of trackers:
 - [Goodreads](http://goodreads.com/)
 - Status: 👍 Healthy
 
-Little change here. Goodreads is still the most complete database library with an interface nice enough to use. Their focus on the "yearly challenge" gamifies reading to a point where some books are read more for stats than for pleasure. Oh well, tracking is the name of the game here, and Goodreads is still king.
+Goodreads remains the most comprehensive online database for book tracking, featuring a "nice enough" user-friendly interface. The platform's emphasis on the "yearly challenge" introduces a gamification element to reading, which tends to somehow make me prioritize quantity over quality. Oh well.. for tracking, Goodreads continues to be the leading service in this area.
 
 ## Music 🎵
 
 - [Last.fm](https://www.last.fm/)
 - Status: 👍 Healthy
 
-I was not completely sure that I was still using Last.fm before writing this and had to double check whether it was still configured with Spotify (which kind of is my go-to stop for all music related activities these days). Indeed, the app is still correctly "scrobbling" and saving statistics since 2009. Well, if something works.. why changing it right?
+Prior to this review, I had to verify that Last.fm is still integrated with Spotify, my primary music streaming service. This speaks to the seamless integration that these two have achieved as of 2025. The application has been consistently "scrobbling" and recording my listening habits since 2009. Given its reliability, there is no compelling reason to switch to an alternative service.
 
 ## Movies 📽
 
@@ -68,4 +68,4 @@ My employer uses a very questionable software to track time (whose name I would 
 - [Pluralsight](https://www.pluralsight.com/)
 - Status: 👍 Healthy
 
-I do not think that Pluralsight offers any special content that you cannot get somewhere else, but it is easy to seach, convenient and extensive. I had not done due diligence in this category because this platform is provided by my employer and as such it is pretty much my go-to place for all course related activities. Once I am sure that the platform does not include anything that could be of interest I scour the web for alternatives, where I usually land in very obscure pages which offer incredible one-in-a-lifetime offer, twice a day.
+I do not believe that Pluralsight offers unique content that cannot be found elsewhere. However, it is easy to search, convenient, and it does have an extensive library. I have not conducted thorough research in this category because this platform is provided by my employer, making it my primary resource for all course-related activities. In general, only once I have confirmed that the platform does not include anything of interest, I search the web for alternatives, often finding obscure pages that offer "too-good-to-be-true" and "once-in-a-lifetime" kind of deals.. like twice a day.
