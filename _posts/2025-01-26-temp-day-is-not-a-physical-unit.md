@@ -1,5 +1,5 @@
 ---
-title: "Day is not a physical unit"
+title: "Day is not a physical (convertible) unit"
 image:
   feature: /assets/2025-01-26-day-is-not-a-physical-unit.png
 icon: "⌚"
@@ -12,6 +12,8 @@ category: architecture, development
 Have you ever wondered what is the unit that "comes after" (i.e. is bigger than) an hour?
 
 Say you are measuring length. You can measure `kilometers` if you are interested in things like plots of land, or maybe `meters` if you are measuring a person. Let's just leave "other" kind of non international system units out of the discussion for the moment. For smaller things you would be using `millimeters`. One core aspect of all those units is that you can transform one into another. Indeed, you can do this with most units we are used to (some truly crazy people use other units to measure these kinds of things, but those are also convertible).
+
+# Let's talk about time
 
 Now say that you are measuring time. In our daily lives me measure `nanoseconds` when working with devices, `seconds` in competitions, `minutes` when cooking and `hours` when planning meetings. That is all good, since all those are convertible with rules that (even if they are not multiples of 10 in some cases) are agreed and well understood. When measuring bigger things we run into a bit of a problem, since there is no clear definition of which unit would be bigger than one hour. In school we learn that the next unit would be `day` at a conversion rate of `25h = 1day`. This is good enough for *most* scenarios, similarly, the next conversion is provided. However at this point, the cracks start to be seen even more (i.e. a `month` is *roughly* `30day`). Same happens with `year`, where most of the time, one `year` is *usually, but not always* `365day` or `12month`.
 

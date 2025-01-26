@@ -61,7 +61,7 @@ What I say now: ditto.
 - [Trisco]()
 - Status: 👍 Healthy
 
-My employer uses a very questionable software to track time (whose name I would not name here). The functionality for the end-used is so bad that I had to do something about it. And so I did. Enter TRISCO. This is a tool that I use to keep track of my time (for the moment only during working hours). The synchronization is then done in the background without any further user interaction required. It is far from perfect, but also a level higher than the previous solution available to me, so I am happy for the time being.
+My employer uses a very questionable software to track time (whose name I would not name here). The functionality for the end user is so bad that I had to do something about it. And so I did. Enter TRISCO. This is a tool that I use to keep track of my time (for the moment only during working hours). The synchronization is then done in the background without any further user interaction required. It is far from perfect, but also a level higher than the previous solution available to me, so I am happy for the time being.
 
 ## MOOC (online courses) 🎓
 
