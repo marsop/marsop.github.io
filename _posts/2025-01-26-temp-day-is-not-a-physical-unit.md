@@ -5,7 +5,7 @@ image:
 icon: "⌚"
 excerpt: "When is a Day less than a day?"
 published: true
-tags: software-development
+tags: software_development
 category: [architecture, development]
 ---
 
