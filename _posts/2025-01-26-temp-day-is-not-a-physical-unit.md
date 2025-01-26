@@ -6,7 +6,7 @@ icon: "⌚"
 excerpt: "When is a Day less than a day?"
 published: true
 tags: software_development
-category: [architecture, development]
+category: architecture, development
 ---
 
 Have you ever wondered what is the unit that "comes after" (i.e. is bigger than) an hour?

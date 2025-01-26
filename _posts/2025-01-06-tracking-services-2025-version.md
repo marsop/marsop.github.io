@@ -5,7 +5,7 @@ image:
 icon: "✌"
 excerpt: "How do I track my media consumption in 2025?"
 published: true
-tags: tracking, automation
+tags: [tracking, automation]
 category: meta
 ---
 
