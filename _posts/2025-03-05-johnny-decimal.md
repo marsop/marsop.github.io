@@ -1,6 +1,6 @@
 ---
 title: "Johnny Decimal or how to organize a life"
-icon: "🪄"
+icon: "💯"
 published: true
 tags: [organization]
 category: [organization]
