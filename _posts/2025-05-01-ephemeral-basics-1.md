@@ -1,6 +1,6 @@
 ---
 title: "Ephemeral Basics (1): Intervals"
-date: 2025-06-01
+date: 2025-05-01
 layout: post
 icon: ⏲️
 categories: [ephemeral]
