@@ -8,18 +8,7 @@ author: marsop
 summary: "First contact with intervals in dotnet."
 ---
 
-# Ephemeral Basics (1): Intervals
-
-Working with intervals in .NET is not always as easy as one would like. In order to solve this the library Ephemeral was created. At the beginning, it was meant to solve problems related to *temporal* intervals. With version 0.2.x it supports now generic intervals. But we are getting ahead of ourselves. Let's start with the basics
-
-
-```C#
-#r "nuget:Ephemeral, 0.2.0-beta.6"
-```
-
-
-<div><div></div><div></div><div><strong>Installed Packages</strong><ul><li><span>Ephemeral, 0.2.0-beta.6</span></li></ul></div></div>
-
+Working with intervals in .NET is not always as easy as one would like. In order to solve this the library Ephemeral was created. At the beginning, it was meant to solve problems related to *temporal* intervals. With version 0.2.x it supports now generic intervals. But we are getting ahead of ourselves. Let's start with the basics. The package required is `nuget: Ephemeral` and last published version is `0.2.0-beta.6`
 
 ## The concept of an interval
 
@@ -33,16 +22,9 @@ In Ephemeral, the same would be accomplished by creating a *closed* interval.
 ```C#
 // This namespace gives you access to the main classes and methods
 using Marsop.Ephemeral.Core;
-```
-
-
-```C#
 var myFirstInterval = BasicInterval<double>.CreateClosed(20.0, 25.0);
-Console.WriteLine(myFirstInterval);
+Console.WriteLine(myFirstInterval); // [20, 25]
 ```
-
-    [20, 25]
-
 
 ## Limitations creating intervals
 
@@ -63,16 +45,9 @@ There is also some utility classes defined to work with intervals of doubles to 
 ```C#
 // Utility classes for numbers (double, int) are included in the Numerics namespace.
 using Marsop.Ephemeral.Numerics;
-```
-
-
-```C#
 var mySecondInterval = DoubleInterval.CreateClosed(20.0, 25.0);
-Console.WriteLine(mySecondInterval);
+Console.WriteLine(mySecondInterval); // [20, 25]
 ```
-
-    [20, 25]
-
 
 ## Open or Closed?
 
@@ -81,11 +56,8 @@ You may have realized that we are using `CreateClosed()` as our factory method. 
 
 ```C#
 var myOpenInterval = DoubleInterval.CreateOpen(20.0, 25.0);
-Console.WriteLine(myOpenInterval);
+Console.WriteLine(myOpenInterval); // (20, 25) 
 ```
-
-    (20, 25)
-
 
 As you could have imagined, there are also semi-open (also known as half-open) intervals. In this cases, we can use the constructor as follows.
 
@@ -94,13 +66,10 @@ As you could have imagined, there are also semi-open (also known as half-open) i
 var myOpenClosedInterval = new DoubleInterval(20, 25, false, true);
 var myClosedOpenInterval = new DoubleInterval(20, 25, true, false);
 
-Console.WriteLine($"Open start, closed end: {myOpenClosedInterval}");
-Console.WriteLine($"Closed start, open end: {myClosedOpenInterval}");
+Console.WriteLine($"Open start, closed end: {myOpenClosedInterval}"); // Open start, closed end: (20, 25]
+
+Console.WriteLine($"Closed start, open end: {myClosedOpenInterval}"); // Closed start, open end: [20, 25)
 ```
-
-    Open start, closed end: (20, 25]
-    Closed start, open end: [20, 25)
-
 
 # Inclusion
 
@@ -109,53 +78,36 @@ One of the first operations that you would use an interval for is to test inclus
 
 ```C#
 var realPrice = 22.0;
-Console.WriteLine($"Is {realPrice} in {myFirstInterval}? {myFirstInterval.Covers(realPrice)}");
+Console.WriteLine($"Is {realPrice} in {myFirstInterval}? {myFirstInterval.Covers(realPrice)}"); // Is 22 in [20, 25]? True
 
 var wayTooExpensivePrice = 30.0;
-Console.WriteLine($"Is {wayTooExpensivePrice} in {myFirstInterval}? {myFirstInterval.Covers(wayTooExpensivePrice)}");
+Console.WriteLine($"Is {wayTooExpensivePrice} in {myFirstInterval}? {myFirstInterval.Covers(wayTooExpensivePrice)}"); // Is 30 in [20, 25]? False
 ```
-
-    Is 22 in [20, 25]? True
-    Is 30 in [20, 25]? False
-
 
 When checking for coverage, the boundaries do matter, so take this into account.
 
 
 ```C#
 var point = 20.0;
-Console.WriteLine($"Is {point} in {myFirstInterval}? {myFirstInterval.Covers(point)}");
-Console.WriteLine($"Is {point} in {myOpenInterval}? {myOpenInterval.Covers(point)}");
+Console.WriteLine($"Is {point} in {myFirstInterval}? {myFirstInterval.Covers(point)}"); // Is 20 in [20, 25]? True
+Console.WriteLine($"Is {point} in {myOpenInterval}? {myOpenInterval.Covers(point)}"); // Is 20 in (20, 25)? False
 ```
 
-    Is 20 in [20, 25]? True
-    Is 20 in (20, 25)? False
-
-
 Check if one interval is inside another one is equally simple.
-
 
 ```C#
 var myBigInterval = DoubleInterval.CreateClosed(0.0, 100.0);
 var mySmallInterval = DoubleInterval.CreateClosed(20.0, 25.0);
-Console.WriteLine($"Is {mySmallInterval} in {myBigInterval}? {myBigInterval.Covers(mySmallInterval)}");
+Console.WriteLine($"Is {mySmallInterval} in {myBigInterval}? {myBigInterval.Covers(mySmallInterval)}"); // Is [20, 25] in [0, 100]? True
 
 var negativeInterval = DoubleInterval.CreateClosed(-10.0, -5.0);
-Console.WriteLine($"Is {mySmallInterval} in {negativeInterval}? {negativeInterval.Covers(mySmallInterval)}");
+Console.WriteLine($"Is {mySmallInterval} in {negativeInterval}? {negativeInterval.Covers(mySmallInterval)}"); // Is [20, 25] in [-10, -5]? False
 ```
-
-    Is [20, 25] in [0, 100]? True
-    Is [20, 25] in [-10, -5]? False
-
 
 Coverage has to be complete, that means that if at least one point in one interval is not covered, then the method returns false.
 
 
 ```C#
-Console.WriteLine($"Is {myOpenInterval} in {myFirstInterval}? {myFirstInterval.Covers(myOpenInterval)}");
-Console.WriteLine($"Is {myFirstInterval} in {myOpenInterval}? {myOpenInterval.Covers(myFirstInterval)}");
+Console.WriteLine($"Is {myOpenInterval} in {myFirstInterval}? {myFirstInterval.Covers(myOpenInterval)}"); // Is (20, 25) in [20, 25]? True
+Console.WriteLine($"Is {myFirstInterval} in {myOpenInterval}? {myOpenInterval.Covers(myFirstInterval)}"); // Is [20, 25] in (20, 25)? False
 ```
-
-    Is (20, 25) in [20, 25]? True
-    Is [20, 25] in (20, 25)? False
-
