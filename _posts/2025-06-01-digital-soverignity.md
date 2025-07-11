@@ -1,6 +1,6 @@
 ---
 title: "Digital Sovereignty"
-date: 2025-06-15
+date: 2025-06-01
 author: marsop
 categories: [technology, sovereignty]
 tags: [digital, sovereignty, privacy, policy]
