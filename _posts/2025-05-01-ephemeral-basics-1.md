@@ -2,7 +2,7 @@
 title: "Ephemeral Basics (1): Intervals"
 date: 2025-05-01
 layout: post
-icon: ⏲️
+icon: "⏲️"
 categories: [ephemeral]
 tags: [dotnet, libraries, ephemeral]
 author: marsop

@@ -1,5 +1,6 @@
 ---
 title: "Digital Sovereignty"
+icon: "👑"
 date: 2025-06-01
 author: marsop
 categories: [technology, sovereignty]
