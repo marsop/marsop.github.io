@@ -20,7 +20,7 @@ For example, let's say that somebody tells you one specific item in a shop costs
 In Ephemeral, the same would be accomplished by creating a *closed* interval.
 
 
-```C#
+```csharp
 // This namespace gives you access to the main classes and methods
 using Marsop.Ephemeral.Core;
 var myFirstInterval = BasicInterval<double>.CreateClosed(20.0, 25.0);
@@ -42,8 +42,7 @@ The second case is known as "degenerate" interval, and it only includes one sing
 
 There is also some utility classes defined to work with intervals of doubles to avoid starting with generics.
 
-
-```C#
+```csharp
 // Utility classes for numbers (double, int) are included in the Numerics namespace.
 using Marsop.Ephemeral.Numerics;
 var mySecondInterval = DoubleInterval.CreateClosed(20.0, 25.0);
@@ -54,16 +53,14 @@ Console.WriteLine(mySecondInterval); // [20, 25]
 
 You may have realized that we are using `CreateClosed()` as our factory method. This is due to the fact that both boundaries are included. If instead neither of them were included, we would write $x \in (20,25)$ or $20 \lt x \lt 25$. In **Ephemeral** this is accomplished using `CreateOpen()`
 
-
-```C#
+```csharp
 var myOpenInterval = DoubleInterval.CreateOpen(20.0, 25.0);
 Console.WriteLine(myOpenInterval); // (20, 25) 
 ```
 
 As you could have imagined, there are also semi-open (also known as half-open) intervals. In this cases, we can use the constructor as follows.
 
-
-```C#
+```csharp
 var myOpenClosedInterval = new DoubleInterval(20, 25, false, true);
 var myClosedOpenInterval = new DoubleInterval(20, 25, true, false);
 
@@ -76,8 +73,7 @@ Console.WriteLine($"Closed start, open end: {myClosedOpenInterval}"); // Closed 
 
 One of the first operations that you would use an interval for is to test inclusion. For example checking if one point is included in the interval.
 
-
-```C#
+```csharp
 var realPrice = 22.0;
 Console.WriteLine($"Is {realPrice} in {myFirstInterval}? {myFirstInterval.Covers(realPrice)}"); // Is 22 in [20, 25]? True
 
@@ -87,8 +83,7 @@ Console.WriteLine($"Is {wayTooExpensivePrice} in {myFirstInterval}? {myFirstInte
 
 When checking for coverage, the boundaries do matter, so take this into account.
 
-
-```C#
+```csharp
 var point = 20.0;
 Console.WriteLine($"Is {point} in {myFirstInterval}? {myFirstInterval.Covers(point)}"); // Is 20 in [20, 25]? True
 Console.WriteLine($"Is {point} in {myOpenInterval}? {myOpenInterval.Covers(point)}"); // Is 20 in (20, 25)? False
@@ -96,7 +91,7 @@ Console.WriteLine($"Is {point} in {myOpenInterval}? {myOpenInterval.Covers(point
 
 Check if one interval is inside another one is equally simple.
 
-```C#
+```csharp
 var myBigInterval = DoubleInterval.CreateClosed(0.0, 100.0);
 var mySmallInterval = DoubleInterval.CreateClosed(20.0, 25.0);
 Console.WriteLine($"Is {mySmallInterval} in {myBigInterval}? {myBigInterval.Covers(mySmallInterval)}"); // Is [20, 25] in [0, 100]? True
@@ -107,8 +102,7 @@ Console.WriteLine($"Is {mySmallInterval} in {negativeInterval}? {negativeInterva
 
 Coverage has to be complete, that means that if at least one point in one interval is not covered, then the method returns false.
 
-
-```C#
+```csharp
 Console.WriteLine($"Is {myOpenInterval} in {myFirstInterval}? {myFirstInterval.Covers(myOpenInterval)}"); // Is (20, 25) in [20, 25]? True
 Console.WriteLine($"Is {myFirstInterval} in {myOpenInterval}? {myOpenInterval.Covers(myFirstInterval)}"); // Is [20, 25] in (20, 25)? False
 ```
