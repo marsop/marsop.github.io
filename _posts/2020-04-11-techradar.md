@@ -1,10 +1,11 @@
 ---
 title: "Tech Radar v1.0"
+author: "Alberto Gregorio"
+icon: "🎯"
+date: 2020-04-11
 image:
   feature: /assets/2020-04-11-platforms.png
-icon: "🎯"
 excerpt: "Visualization of my first tech radar"
-published: true
 tags: tech_radar, technology, tool, technique, language, framework
 category: meta
 ---

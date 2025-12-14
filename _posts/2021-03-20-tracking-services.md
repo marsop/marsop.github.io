@@ -1,10 +1,11 @@
 ---
 title: "Tracking Services"
+author: "Alberto Gregorio"
+icon: "📡"
+date: 2021-03-20
 image:
   feature: /assets/2021-03-20-tracking-services-image.jpg
-icon: "📡"
 excerpt: "How do I track my media consumption?"
-published: true
 tags: tracking, automation
 category: meta
 ---

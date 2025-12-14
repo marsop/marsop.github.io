@@ -1,10 +1,11 @@
 ---
 title: "Day is not a physical (convertible) unit"
+author: "Alberto Gregorio"
+icon: "⌚"
+date: 2025-02-01
 image:
   feature: /assets/2025-01-26-day-is-not-a-physical-unit.png
-icon: "⌚"
 excerpt: "When is a Day less than a day?"
-published: true
 tags: software_development
 category: architecture, development
 ---

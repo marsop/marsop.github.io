@@ -1,0 +1,18 @@
+---
+title: "Track It Now, Think Later"
+author: "Alberto Gregorio"
+icon: "🏁"
+date: 2025-12-01
+layout: post
+categories: [blog]
+tags: [productivity, tracking, workflow]
+description: "Capture observations immediately and defer analysis — practical tips for collecting useful data now and thinking about it later."
+---
+
+Let me ask you one question: "how much of your life is digitized?". Depending on your daily use of the technology around you, the answer will vary from merely "social networks and email" to "pretty much everything I do". Now, leaving aside for a moment the *ownership* of the data, the truth is that capturing information in a digital way is still quite complicated for non-digital-first activities. Be it watching a movie, reading a book, going for a run, or preparing (and eating) a specific meal. Most of these activities are not conceived as digital-first, since they come from a time when that sentence did not even make sense.
+
+As I have discussed several times in this blog, there are a host of platforms to track all this, but they are mostly little islands in the sea, where each platform knows and understands only its main focus. This data collection problem is dwarfed by the elephant in the room: "who is the owner of that data?", but again, I will take a detour today to avoid talking about that and instead focus on the **utility** of the data itself.
+
+When you collect data about different activities (let's focus on reading books and [Goodreads](https://www.goodreads.com/) for a moment), besides the social factor (sharing and interacting with similar data from others), there is a point to be made about being disciplined in *tracking* (digitally) your real life. Things like evaluating each and every book read become a ritual ingrained in the experience. Obviously this requires immediacy as well, since voting a book years after reading it is out of the question for most of us. Up until now, this ritualistic step had little use for the average user of these platforms. Most platforms would go the extra mile and present a regular analysis (think about [Spotify Wrapped](https://www.spotify.com/wrapped/), the [Goodreads Yearly Challenge](https://www.goodreads.com/challenges) or [Trakt.tv](https://trakt.tv/) stats), all in order to keep the user engaged and motivated to keep the ritual going. Such infographics have a certain appeal to data aficionados, but otherwise, the platforms did not allow for a user-triggered in-depth analysis... unless you exported this data out of the host platform and started cross-analyzing it yourself.
+
+This very manual step has been incrementally simplified by AI tooling that allows you to create recommendations, analyses, graphics, and much more *directly* on the platform, either by automatically extracting relevant content or even scraping data from websites. The possibilities opened by this approach make the data collected over time a treasure trove that now, after many years (my [FilmAffinity](https://www.filmaffinity.com/) account shows I rated my first film roughly in 2004), starts to show its true value. Granted, having this data locked into platforms and not inside something like the [AT protocol](https://atproto.com/) is a problem, but as of today, it is a solvable one, since most allow for easy export. Still, the problem of *creating* the entries to begin with remains a complicated one without an easy solution just yet.

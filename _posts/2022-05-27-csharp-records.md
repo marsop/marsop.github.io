@@ -1,10 +1,11 @@
 ---
 title: "C# Record Validation"
+author: "Alberto Gregorio"
+icon: "✔"
+date: 2022-05-27
 image:
   feature: /assets/2022-05-27-csharp-records.jpg
-icon: "✔"
 excerpt: "Validate or not validate, that is the question"
-published: true
 tags: [clean-code, programming]
 category: csharp
 ---

@@ -1,11 +1,11 @@
 ---
 title: "Ephemeral Basics (1): Intervals"
+author: "Alberto Gregorio"
+icon: "⏲️"
 date: 2025-05-01
 layout: post
-icon: "⏲️"
 categories: [ephemeral]
 tags: [dotnet, libraries, ephemeral]
-author: marsop
 summary: "First contact with intervals in dotnet."
 ---
 

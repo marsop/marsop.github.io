@@ -1,5 +1,8 @@
 ---
 title: "My PlantUML Diagram-Based Workflow for .NET"
+author: "Alberto Gregorio"
+icon: "📈"
+date: 2019-11-02
 published: false
 ---
 

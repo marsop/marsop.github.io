@@ -1,7 +1,8 @@
 ---
 title: "Obsidian importer or how to escape Notion"
+author: "Alberto Gregorio"
 icon: "🚛"
-published: true
+date: 2025-04-01
 tags: [obsidian, notion, knowledge-base, second-brain]
 category: [organization]
 ---

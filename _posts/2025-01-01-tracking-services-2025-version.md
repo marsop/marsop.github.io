@@ -1,10 +1,11 @@
 ---
 title: "Tracking Services (2025 edition)"
+author: "Alberto Gregorio"
+date: 2025-01-01
+icon: "✌"
 image:
   feature: /assets/2021-03-20-tracking-services-image.jpg
-icon: "✌"
 excerpt: "How do I track my media consumption in 2025?"
-published: true
 tags: [tracking, automation]
 category: meta
 ---

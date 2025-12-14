@@ -1,8 +1,8 @@
 ---
 title: "Digital Sovereignty"
+author: "Alberto Gregorio"
 icon: "👑"
 date: 2025-06-01
-author: marsop
 categories: [technology, sovereignty]
 tags: [digital, sovereignty, privacy, policy]
 layout: post

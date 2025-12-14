@@ -1,7 +1,8 @@
 ---
 title: "Johnny Decimal or how to organize a life"
+author: "Alberto Gregorio"
 icon: "💯"
-published: true
+date: 2025-03-01
 tags: [organization]
 category: [organization]
 ---
