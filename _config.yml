@@ -50,8 +50,6 @@ social_media:
   # website: http://albertogregorio.com
   # youtube: your_username
 
-google_analytics: UA-150973090-1
-
 responsive_image:
   template: _includes/responsive-image.html
   sizes:
