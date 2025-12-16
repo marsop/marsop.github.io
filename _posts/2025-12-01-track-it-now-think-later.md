@@ -4,7 +4,6 @@ author: "Alberto Gregorio"
 icon: "🏁"
 date: 2025-12-01
 layout: post
-categories: [blog]
 tags: [productivity, tracking, workflow]
 description: "Capture observations immediately and defer analysis — practical tips for collecting useful data now and thinking about it later."
 ---

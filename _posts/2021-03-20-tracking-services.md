@@ -5,9 +5,8 @@ icon: "📡"
 date: 2021-03-20
 image:
   feature: /assets/2021-03-20-tracking-services-image.jpg
-excerpt: "How do I track my media consumption?"
+description: "How do I track my media consumption?"
 tags: tracking, automation
-category: meta
 ---
 
 I like to keep track of things. Call it what you will, but for me, being able to analyze my own habits helps me keep an illusion of control over them. There are several "categories" that are currently being tracked. For each of them, I have tested different options over the years, and finally settled for (better or worse) services to keep my data. Nowadays, I try to choose services that would allow me to take my data away should I find a better alternative. A comprehensive list of features would be too long and it would require its own separate post. For the moment, let´s just keep it simple and name a few: extensive database, easy to use, inexpensive, easy to move out.

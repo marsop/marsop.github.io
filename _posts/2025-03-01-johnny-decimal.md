@@ -4,7 +4,6 @@ author: "Alberto Gregorio"
 icon: "💯"
 date: 2025-03-01
 tags: [organization]
-category: [organization]
 ---
 
 # My Journey with GTD and Document Chaos

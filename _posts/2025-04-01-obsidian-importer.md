@@ -4,7 +4,6 @@ author: "Alberto Gregorio"
 icon: "🚛"
 date: 2025-04-01
 tags: [obsidian, notion, knowledge-base, second-brain]
-category: [organization]
 ---
 
 This time, I have to admit that I am late to the party. I have been using Notion for years and loving it bit by bit as I learn how to properly get it working for my use cases. Lately, I have introduced it as a documentation tool and low-code application platform for all kinds of organizational tasks. I may write about some of those in the future. For the moment, however, I am keeping it at a personal level (i.e., not moving my professional data there just yet). Not leaving it completely, mind you. As I explained in [[2025-03-05-johnny-decimal]], my document organization follows this pattern, and one of the main places where I store information is Notion. The problem is that while I am mostly okay with the lock-in of the platform for current applications (for example, the planning of an upcoming trip), I find it troublesome when it comes to my private knowledge base (aka second brain). There are a couple of reasons for this.

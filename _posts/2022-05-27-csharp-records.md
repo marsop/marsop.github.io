@@ -5,9 +5,8 @@ icon: "✔"
 date: 2022-05-27
 image:
   feature: /assets/2022-05-27-csharp-records.jpg
-excerpt: "Validate or not validate, that is the question"
+description: "Validate or not validate, that is the question"
 tags: [clean-code, programming]
-category: csharp
 ---
 
 Love them or hate them, C# records are here to stay, and you should learn to use them. Let's delve a bit into my biggest problem with these guys. Starting with a simple example, let's define a `Person`:
