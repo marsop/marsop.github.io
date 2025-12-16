@@ -1,5 +1,6 @@
 layout: sidebar
 style: light
+description: "Alberto Gregorio's personal blog about software development, technology, and everything else."
 
 plugins:
   - jekyll-octicons
