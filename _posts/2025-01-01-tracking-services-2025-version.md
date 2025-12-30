@@ -1,8 +1,8 @@
 ---
 title: "Tracking Services (2025 edition)"
 author: "Alberto Gregorio"
-date: 2025-01-01
 icon: "✌"
+date: 2025-01-01
 image:
   feature: /assets/2021-03-20-tracking-services-image.jpg
 description: "How do I track my media consumption in 2025?"

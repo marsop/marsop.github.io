@@ -6,7 +6,7 @@ date: 2025-02-01
 image:
   feature: /assets/2025-01-26-day-is-not-a-physical-unit.png
 description: "When is a Day less than a day?"
-tags: architecture, development
+tags: [architecture, development]
 ---
 
 Have you ever wondered what is the unit that "comes after" (i.e. is bigger than) an hour?
