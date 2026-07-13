@@ -52,3 +52,116 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+/* Theme Variables */
+:root {
+  --bg-body: #ffffff;
+  --bg-sidebar: #ffffff;
+  --bg-content: #f6f8fa;
+  --bg-card: #ffffff;
+  --text-primary: #24292e;
+  --text-secondary: #586069;
+  --border-color: #eaecef;
+  --border-sidebar: #eaecef;
+  --card-shadow: none;
+  --card-border: 1px solid #eaecef;
+}
+
+[data-theme="dark"] {
+  --bg-body: #2f363d;
+  --bg-sidebar: #24292e;
+  --bg-content: #2f363d;
+  --bg-card: #2f363d;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5da;
+  --border-color: #444d56;
+  --border-sidebar: transparent;
+  --card-shadow: 0 1px 15px rgba(0,0,0,0.5);
+  --card-border: 1px solid transparent;
+}
+
+body {
+  background-color: var(--bg-body) !important;
+  color: var(--text-primary) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: #0366d6;
+}
+[data-theme="dark"] a {
+  color: #79b8ff;
+}
+
+.theme-sidebar {
+  background-color: var(--bg-sidebar) !important;
+  border-right: 1px solid var(--border-sidebar);
+}
+@media (max-width: 767px) {
+  .theme-sidebar {
+    border-right: none !important;
+    border-bottom: 1px solid var(--border-sidebar);
+  }
+}
+
+.theme-content {
+  background-color: var(--bg-content) !important;
+}
+
+.theme-text {
+  color: var(--text-primary) !important;
+}
+
+.theme-text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.theme-card {
+  background-color: var(--bg-card) !important;
+  border: var(--card-border) !important;
+  box-shadow: var(--card-shadow) !important;
+}
+
+.theme-border {
+  border-color: var(--border-color) !important;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--text-primary);
+  color: var(--bg-body);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.theme-toggle-btn svg {
+  fill: currentColor;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+.dark-icon {
+  display: none;
+}
+[data-theme="dark"] .dark-icon {
+  display: block;
+}
+[data-theme="dark"] .light-icon {
+  display: none;
+}
+
+svg {
+  fill: currentColor !important;
+}
