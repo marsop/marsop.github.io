@@ -1,4 +1,4 @@
-IMG_TAG_REGEX = /\!\[(.+)\]\((.+)\)/.freeze
+IMG_TAG_REGEX = /\!\[([^\]]+)\]\(([^)]+)\)/.freeze
 
 Jekyll::Hooks.register :posts, :pre_render do |post, payload|
   docExt = post.extname.tr('.', '')
