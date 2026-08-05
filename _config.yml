@@ -25,6 +25,8 @@ projects:
   #   - pushed
   #   - stars
   limit: 6
+  pinned:
+    - kairos
   exclude:
     forks: true
     archived: false

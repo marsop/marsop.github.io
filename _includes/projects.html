@@ -17,11 +17,34 @@
     {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
   {% endif %}
 
-  {% for repository in filtered_repos | limit: site.projects.limit %}
-    {% unless site.projects.exclude.projects contains repository.name %}
-      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-        {% include repo-card.html %}
-      </div>
-    {% endunless %}
-  {% endfor %}
+  {% assign rendered_count = 0 %}
+  {% if site.projects.pinned %}
+    {% for pinned_repo in site.projects.pinned %}
+      {% assign repository = site.github.public_repositories | where: "name", pinned_repo | first %}
+      {% if repository %}
+        {% unless site.projects.exclude.projects contains repository.name %}
+          <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+            {% include repo-card.html %}
+          </div>
+          {% assign rendered_count = rendered_count | plus: 1 %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% assign remaining_limit = site.projects.limit | minus: rendered_count %}
+  {% if remaining_limit > 0 %}
+    {% assign unpinned_rendered = 0 %}
+    {% for repository in filtered_repos %}
+      {% unless site.projects.pinned contains repository.name or site.projects.exclude.projects contains repository.name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+        {% assign unpinned_rendered = unpinned_rendered | plus: 1 %}
+        {% if unpinned_rendered >= remaining_limit %}
+          {% break %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
 </div>
