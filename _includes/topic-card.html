@@ -1,7 +1,7 @@
 {% capture tag_name %}{% if topic.web_url %}a{% else %}div{% endif %}{% endcapture %}
-<{{ tag_name }}{% if topic.web_url %} href="{{ topic.web_url }}"{% endif %} class="github-component position-relative {% if topic.web_url %}hover-grow no-underline d-flex flex-column flex-justify-center {% endif %}height-full text-center border border-gray-light rounded-1 bg-white p-5">
+<{{ tag_name }}{% if topic.web_url %} href="{{ topic.web_url }}"{% endif %} class="github-component position-relative {% if topic.web_url %}hover-grow no-underline d-flex flex-column flex-justify-center {% endif %}height-full text-center rounded-1 theme-card p-5">
     {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
+      <img src="{{ topic.image_url }}" width="64" height="64" class="topic-image mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
     {% else %}
       <div
         class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
@@ -10,8 +10,8 @@
         #
       </div>
     {% endif %}
-    <p class="f3 lh-condensed text-center {% if topic.web_url %}link-gray-dark {% endif %}mb-0 mt-1">{{ topic.name }}</p>
+    <p class="f3 lh-condensed text-center theme-text mb-0 mt-1">{{ topic.name }}</p>
     {% if topic.description %}
-      <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
+      <p class="f5 theme-text-secondary text-center mb-0 mt-1">{{ topic.description }}</p>
     {% endif %}
 </{{ tag_name }}>
