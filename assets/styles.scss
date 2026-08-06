@@ -1,6 +1,7 @@
 ---
 ---
 @import url('https://unpkg.com/primer/build/build.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
 @import 'highlight-syntax';
 
 
@@ -55,6 +56,24 @@
 
 /* Theme Variables */
 :root {
+  /* Syntax Highlighting Base (Light - Similar to GitHub Light) */
+  --code-bg: #f6f8fa;
+  --code-text: #24292e;
+  --syntax-comment: #6a737d;
+  --syntax-error: #b31d28;
+  --syntax-error-bg: #ffeef0;
+  --syntax-keyword: #d73a49;
+  --syntax-operator: #d73a49;
+  --syntax-keyword-type: #005cc5;
+  --syntax-number: #005cc5;
+  --syntax-string: #032f62;
+  --syntax-name-builtin: #e36209;
+  --syntax-name-class: #6f42c1;
+  --syntax-name-entity: #6f42c1;
+  --syntax-name-function: #6f42c1;
+  --syntax-name-tag: #22863a;
+  --syntax-name-variable: #e36209;
+
   --bg-body: #ffffff;
   --bg-sidebar: #ffffff;
   --bg-content: #f6f8fa;
@@ -68,6 +87,24 @@
 }
 
 [data-theme="dark"] {
+  /* Syntax Highlighting Dracula Theme (Dark) */
+  --code-bg: #282a36;
+  --code-text: #f8f8f2;
+  --syntax-comment: #6272a4;
+  --syntax-error: #ff5555;
+  --syntax-error-bg: rgba(255, 85, 85, 0.2);
+  --syntax-keyword: #ff79c6;
+  --syntax-operator: #ff79c6;
+  --syntax-keyword-type: #8be9fd;
+  --syntax-number: #bd93f9;
+  --syntax-string: #f1fa8c;
+  --syntax-name-builtin: #50fa7b;
+  --syntax-name-class: #8be9fd;
+  --syntax-name-entity: #50fa7b;
+  --syntax-name-function: #50fa7b;
+  --syntax-name-tag: #ff79c6;
+  --syntax-name-variable: #f8f8f2;
+
   --bg-body: #2f363d;
   --bg-sidebar: #24292e;
   --bg-content: #2f363d;
