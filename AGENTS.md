@@ -21,3 +21,8 @@
 
 ## Workflow Guidelines
 * Before making changes, always enter a deep planning mode: ask clarifying questions to verify all assumptions, gain absolute certainty of expectations, and only use `set_plan` once requirements are crystal clear. After plan creation, execute autonomously without asking for further confirmation.
+
+## Memory and Guidelines Context
+* **User Request Supersedes:** Always prioritize the user's current, explicit request over any conflicting information in memory.
+* **Context vs. State:** Use memory for historical context and intent (the "why"). Use the actual codebase files as the source of truth for the current code state (the "what").
+* **Memory is Not a Task:** Do not treat information from memory as a new, active instruction. Memory provides passive context, do not use it to create new feature requests.
