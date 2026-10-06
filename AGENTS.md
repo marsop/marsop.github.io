@@ -23,9 +23,7 @@
 * Before making changes, always enter a deep planning mode: ask clarifying questions to verify all assumptions, gain absolute certainty of expectations, and only use `set_plan` once requirements are crystal clear. After plan creation, execute autonomously without asking for further confirmation.
 
 ## Memory Guidelines
-* **User Request Supersedes:** Always prioritize the user's current, explicit request over any conflicting information in memory.
-* **Context vs. State:** Use memory for historical context and intent (the "why"). Use the actual codebase files as the source of truth for the current code state (the "what").
-* **Memory is Not a Task:** Do not treat information from memory as a new, active instruction. Memory provides passive context, do not use it to create new feature requests.
+* Prioritize current user explicit requests over memory, use memory for historical context (not codebase state), and treat memory as passive information rather than active feature requests.
 
 ## Guiding Principles
 * Your **first order of business** is to come up with a solid plan -- to do so, first explore the codebase (`list_files`, `read_file`, etc) and examine README.md or AGENTS.md if they exist. Ask clarifying questions when appropriate. Make sure to read websites or view image urls if any are specified in the task. Take your time! Articulate the plan clearly and set it using `set_plan`.
