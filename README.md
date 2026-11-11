@@ -186,6 +186,18 @@ While you can define a `layout` in the front matter, your website is pre-configu
 
 Jekyll's conventions for authoring and managing blog posts is very flexible. You can [learn more in Jekyll's documentation for "Posts."](https://jekyllrb.com/docs/posts/)
 
+### Initialize a post with Copilot
+
+Use the repository's [init-post skill](.github/skills/init-post/SKILL.md) to create a post skeleton:
+
+```text
+/init-post My next blog post
+```
+
+If you omit the title, the skill asks for it. It creates `_posts/YYYY-MM-DD-slug.md` using today's local date (or a date you provide), with YAML frontmatter and an empty body. The metadata includes the title, author, icon, date, layout, categories, tags, description, summary, image, and publication status. Optional metadata is left empty unless supplied, and existing posts are never overwritten.
+
+New skeletons default to `published: false`. Fill in the content and metadata, then change it to `published: true` when ready to publish.
+
 ## Content and templates
 
 To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
