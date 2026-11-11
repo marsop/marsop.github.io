@@ -56,6 +56,8 @@
 
 /* Theme Variables */
 :root {
+  color-scheme: light;
+
   /* Syntax Highlighting Base (Light - Similar to GitHub Light) */
   --code-bg: #f6f8fa;
   --code-text: #24292e;
@@ -87,6 +89,8 @@
 }
 
 [data-theme="dark"] {
+  color-scheme: dark;
+
   /* Syntax Highlighting Dracula Theme (Dark) */
   --code-bg: #282a36;
   --code-text: #f8f8f2;
@@ -187,6 +191,37 @@ a {
 
 .theme-toggle-btn:hover {
   transform: scale(1.1);
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  padding: 0.75rem 1rem;
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:focus-visible {
+  outline: 3px solid #0969da;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 [data-theme="dark"] .topic-image {

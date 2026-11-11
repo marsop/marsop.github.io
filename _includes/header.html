@@ -2,25 +2,33 @@
 
 {% assign user = site.github.owner %}
 
-{% if page.path contains '_posts' %}
-  {% assign page_title = page.title %}
-  {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% assign page_title = page.title | default: site.title | default: user.name | default: user.login %}
+{% if page.description %}
+  {% assign meta_description = page.description %}
+{% elsif page.date %}
+  {% assign meta_description = page.excerpt | default: page.content %}
 {% else %}
-  {% assign page_title = user.name %}
-  {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+  {% assign meta_description = site.description | default: user.bio %}
 {% endif %}
+{% assign meta_description = meta_description | strip_html | strip_newlines | normalize_whitespace | truncate: 300 | xml_escape %}
+{% assign social_image = page.image | default: site.image | default: user.avatar_url %}
 
 <!doctype html>
-<html class="min-height-full">
+<html lang="{{ site.lang | default: 'en' | escape }}" class="min-height-full">
   <head>
     <meta charset="utf-8">
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ meta_description }}" />
-    <meta property="og:title" content="{{ user.name }}" />
-    <meta property="og:image" content="{{ user.avatar_url }}" />
-    <meta property="og:description" content="{{ meta_description }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: user.name }}" href="{{ "/feed.xml" | absolute_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>{{ page_title | escape }}</title>
+    <meta name="description" content="{{ meta_description }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{{ page_title | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ social_image | absolute_url }}">
+    <meta property="og:description" content="{{ meta_description }}">
+    <meta name="twitter:card" content="summary">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: user.name | escape }}" href="{{ "/feed.xml" | absolute_url }}">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
     <script>
       (function() {
@@ -36,3 +44,4 @@
     </script>
   </head>
   <body class="min-height-full">
+    <a class="skip-link" href="#main-content">Skip to content</a>

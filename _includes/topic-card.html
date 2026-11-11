@@ -1,7 +1,7 @@
 {% capture tag_name %}{% if topic.web_url %}a{% else %}div{% endif %}{% endcapture %}
 <{{ tag_name }}{% if topic.web_url %} href="{{ topic.web_url }}"{% endif %} class="github-component position-relative {% if topic.web_url %}hover-grow no-underline d-flex flex-column flex-justify-center {% endif %}height-full text-center rounded-1 theme-card p-5">
     {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="64" height="64" class="topic-image mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
+      <img src="{{ topic.image_url }}" width="64" height="64" class="topic-image mx-auto rounded-1 mb-3" alt="" loading="lazy" decoding="async">
     {% else %}
       <div
         class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
